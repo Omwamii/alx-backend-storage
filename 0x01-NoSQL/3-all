@@ -1,0 +1,4 @@
+// lists all documents in the collection: school
+
+use "$2"
+db.getCollection('school').find({})
